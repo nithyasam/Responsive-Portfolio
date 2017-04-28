@@ -29,18 +29,18 @@
 @media only screen and (max-width: 980px) {
 	#aboutme{
 		width: 100%;
-		margin: 0,auto;
+		margin: auto;
 	}
 }
 @media only screen and (max-width: 768px) {
 	#aboutme{
 		width: 100%;
-		margin: 0,auto;
+		margin: auto;
 	}
 }
 @media only screen and (max-width: 640px) {
 	#aboutme{
 		width: 100%;
-		margin: 0,auto;
+		margin: auto;
 	}
 }

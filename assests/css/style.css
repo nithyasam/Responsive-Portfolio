@@ -100,15 +100,17 @@ footer{
 	border-top: 8px solid #4aaaa5;
 }
 @media only screen and (max-width: 980px) {
+	
 	.wrapper{
 		width: 100%;
-		margin: 0,auto;
+		margin: auto;
+		
 	}
 	#connectme{
 		width: 100%;
-		margin: 0,auto;
+		margin: auto;
 	}
-	header, h1{
+	header h1{
 		position: static;
 		margin: 0,auto;
 	}
@@ -118,35 +120,40 @@ footer{
 	}
 
 @media only screen and (max-width: 768px) {
+	
 	.wrapper{
 		width: 100%;
-		margin: 0,auto;
+		margin: auto;
+		
 	}
 	#connectme{
 		width: 100%;
-		margin: 0,auto;
+		margin: auto;
 	}
-	header, h1{
+	header h1{
 		position: static;
 		margin: 0,auto;
 	}
+	
 	body{
 		background-color: white;
 	}
 	}
 
 @media only screen and (max-width: 640px) {
+	
 	.wrapper{
 		width: 100%;
-		margin: 0,auto;
+		margin: auto;
+
 	}
 	
 	#connectme{
 		width: 100%;
-		margin: 0,auto;
+		margin: auto;
 	}
 
-	header, h1{
+	header h1{
 		position: static;
 		margin: 0,auto;
 	}
