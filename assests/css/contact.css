@@ -48,3 +48,30 @@ input[type=submit]:hover{
 	width: 500px;
 	height: 200px;
 }
+
+/*---Media Queries---*/
+@media only screen and (max-width: 980px) {
+	#contactme{
+		width: 100%;
+		height: 100%;
+		margin: auto;
+	}
+}
+@media only screen and (max-width: 768px) {
+	#contactme{
+		width: 100%;
+		height: 100%;
+		margin: auto;
+	}
+}
+@media only screen and (max-width: 640px) {
+	#contactme{
+		width: 100%;
+		height: 100%;
+		margin: auto;
+	}
+	#contactform textarea {
+		width: 100%;
+		border: 1px solid #ccc;
+}
+}

@@ -152,5 +152,27 @@
 #p5 h2:hover{background-color: grey;}
 
 
+/*---Media Queries---*/
+@media only screen and (max-width: 980px) {
+	#myportfolio{
+		width: 100%;
+		height: 100%;
+		margin: auto;
+	}
+}
+@media only screen and (max-width: 768px) {
+	#myportfolio{
+		width: 100%;
+		height: 100%;
+		margin: auto;
+	}
+}
+@media only screen and (max-width: 640px) {
+	#myportfolio{
+		width: 100%;
+		height: 100%;
+		margin: auto;
+	}
+}
 
 
