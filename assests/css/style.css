@@ -1,0 +1,157 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#777777;
+	line-height: 23px;
+	font-size: 18px;
+	background-image: url(../../assests/images/background.png);
+}
+header{
+	border: 2px solid #cccccc;
+	padding: 20px;
+	height: 100px;
+	position: relative;
+	background-color: #ffffff;
+}
+header h1{
+	position: absolute;
+	bottom: 0;
+	margin-left: 230px;
+	background-color: #4aaaa5;
+	width: 250px;
+	height: 100px;
+	padding: 20px;
+	float: left;
+	color: white;
+	font-size: 35px;
+	text-align: center;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	
+}
+header ul{
+	list-style-type: none;
+	padding: 10px;
+	overflow: hidden;
+	background-color: #ffffff;
+	margin-top: 10px;
+	margin-right: 300px;
+	float: right;
+}
+header li {
+	float: right;
+	padding: 10px;
+	border-right:1px solid #bbb;
+}
+header li:first-child {
+	border-right: none;
+}
+header a{
+	color: #bbb;
+}
+.wrapper{
+	clear: both;
+	width: 100%;
+	height: 660px;
+	
+}
+
+
+#connectme{
+	margin-left: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	float: left;
+	border: 4px solid #dddddd;
+	width: 350px;
+	height: 200px;
+	background-color: #ffffff;
+	padding: 30px;
+
+}
+#connectme h2{
+	text-align: center;
+	color: #4aaaa5;
+	font-size: 20px;
+}
+#connectme hr {
+	
+	border: 1px solid #dddddd;
+}
+#connectme img{
+	float: center;
+	margin-left: 17px;
+	width: 70px;
+	height: 70px;
+
+}
+#connectme img:hover {background-color: grey;}
+
+a:hover {color: blue;}
+
+footer{
+	clear: both;
+	background-color: #666666;
+	color: #dddddd;
+	font-size: 12px;
+	padding: 40px;
+	text-align: center;
+	border-top: 8px solid #4aaaa5;
+}
+@media only screen and (max-width: 980px) {
+	.wrapper{
+		width: 100%;
+		margin: 0,auto;
+	}
+	#connectme{
+		width: 100%;
+		margin: 0,auto;
+	}
+	header, h1{
+		position: static;
+		margin: 0,auto;
+	}
+	body{
+		background-color: white;
+	}
+	}
+
+@media only screen and (max-width: 768px) {
+	.wrapper{
+		width: 100%;
+		margin: 0,auto;
+	}
+	#connectme{
+		width: 100%;
+		margin: 0,auto;
+	}
+	header, h1{
+		position: static;
+		margin: 0,auto;
+	}
+	body{
+		background-color: white;
+	}
+	}
+
+@media only screen and (max-width: 640px) {
+	.wrapper{
+		width: 100%;
+		margin: 0,auto;
+	}
+	
+	#connectme{
+		width: 100%;
+		margin: 0,auto;
+	}
+
+	header, h1{
+		position: static;
+		margin: 0,auto;
+	}
+	body{
+		background-color: white;
+	}
+	}
+

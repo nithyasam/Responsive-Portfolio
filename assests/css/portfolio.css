@@ -1,0 +1,156 @@
+#myportfolio{
+	margin-left: 250px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	float:left;
+	border: 4px solid #dddddd;
+	width: 570px;
+	height: 560px;
+	background-color: #ffffff;
+	padding: 30px;
+}
+
+
+#myportfolio h2{
+	text-align: left;
+	color: #4aaaa5;
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+#myportfolio hr {
+	
+	border: 2px solid #dddddd;
+
+}
+#myportfolio img{
+	width: 200px;
+	height: 140px;
+	
+}
+#p1{
+    position: relative;
+    margin: 5px 20px 5px 20px;
+    display: inline-block;
+}
+#p1 h2{
+    position: absolute;
+    bottom: 15px;
+    left:0;
+    right :0;
+    background-color: #4aaaa5;
+   	width: 200px;
+	height: 50px;
+	padding: 20px;
+	
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	
+
+
+}
+#p1 img:hover{background-color: grey;}
+#p1 h2:hover{background-color: grey;}
+
+#p2{
+	clear: both;
+    position: relative;
+    margin: 5px 20px 5px 20px;
+    display: inline-block;
+}
+#p2 h2{
+	
+    position: absolute;
+    bottom: 15px;
+    left:0;
+    right :0;
+    background-color: #4aaaa5;
+   	width: 200px;
+	height: 50px;
+	padding: 20px;
+	
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+#p2 img:hover{background-color: grey;}
+#p2 h2:hover{background-color: grey;}
+
+#p3{
+	clear: both;
+    position: relative;
+    margin: 5px 20px 5px 20px;
+    display: inline-block;
+}
+#p3 h2{
+	
+    position: absolute;
+    bottom: 15px;
+    left:0;
+    right :0;
+    background-color: #4aaaa5;
+   	width: 200px;
+	height: 50px;
+	padding: 20px;
+	
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+#p3 img:hover{background-color: grey;}
+#p3 h2:hover{background-color: grey;}
+#p4{
+	clear: both;
+    position: relative;
+    margin: 5px 20px 5px 20px;
+    display: inline-block;
+}
+#p4 h2{
+	
+    position: absolute;
+    bottom: 15px;
+    left:0;
+    right :0;
+    background-color: #4aaaa5;
+   	width: 200px;
+	height: 50px;
+	padding: 20px;
+	
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+#p4 img:hover{background-color: grey;}
+#p4 h2:hover{background-color: grey;}
+#p5{
+	clear: both;
+    position: relative;
+    margin: 5px 20px 5px 20px;
+    display: inline-block;
+}
+#p5 h2{
+	
+    position: absolute;
+    bottom: 15;
+    left:0;
+    right :0;
+    background-color: #4aaaa5;
+   	width: 200px;
+	height: 50px;
+	padding: 20px;
+	
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+#p5 img:hover{background-color: grey;}
+#p5 h2:hover{background-color: grey;}
+
+
+
+
