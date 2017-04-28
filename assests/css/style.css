@@ -112,9 +112,13 @@ footer{
 		margin: auto;
 		min-width: 100%;
 	}
+	header ul{
+		margin: 0;
+	}
 	header li{
 		border-right: none;
 		min-width: 100%;
+		margin: auto;
 	}
 	body{
 		background-image: none;
@@ -134,9 +138,13 @@ footer{
 		min-width: 100%;
 		margin: auto;
 	}
+	header ul{
+		margin: 0;
+	}
 	header li{
 		border-right: none;
 		min-width: 100%;
+		margin: auto;
 	}
 	body{
 		background-image: none;
@@ -157,6 +165,9 @@ footer{
 		min-width: 100%;
 		margin: auto;
 		
+	}
+	header ul{
+		margin: 0;
 	}
 	header li{
 		border-right: none;
