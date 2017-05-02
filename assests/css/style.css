@@ -96,85 +96,390 @@ footer{
 	border-top: 8px solid #4aaaa5;
 }
 
+/*--for index.css*/
+#aboutme{
+	margin-left: 230px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	float:left;
+	border: 4px solid #dddddd;
+	width: 570px;
+	height: 430px;
+	background-color: #ffffff;
+	padding: 30px;
+}
+#aboutme img{
+	float: left;
+	padding-right: 5px;
+	width: 150px;
+	height: 150px;
+}
+
+#aboutme h2{
+	text-align: left;
+	color: #4aaaa5;
+	font-size: 30px;
+	
+}
+#aboutme hr {
+	
+	border: 2px solid #dddddd;
+}
+
+
+/*-- for portfolio.css*/
+#myportfolio{
+	margin-left: 250px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	float:left;
+	border: 4px solid #dddddd;
+	width: 570px;
+	height: 560px;
+	background-color: #ffffff;
+	padding: 30px;
+}
+#myportfolio h2{
+	text-align: left;
+	color: #4aaaa5;
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+#myportfolio hr {
+	
+	border: 2px solid #dddddd;
+
+}
+#myportfolio img{
+	width: 200px;
+	height: 140px;
+	
+}
+#p1{
+    position: relative;
+    margin: 5px 20px 5px 20px;
+    display: inline-block;
+}
+#p1 h2{
+    position: absolute;
+    bottom: 15px;
+    left:0;
+    right :0;
+    background-color: #4aaaa5;
+   	width: 200px;
+	height: 50px;
+	padding: 20px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+#p1 img:hover{background-color: grey;}
+#p1 h2:hover{background-color: grey;}
+
+#p2{
+	clear: both;
+    position: relative;
+    margin: 5px 20px 5px 20px;
+    display: inline-block;
+}
+#p2 h2{
+    position: absolute;
+    bottom: 15px;
+    left:0;
+    right :0;
+    background-color: #4aaaa5;
+   	width: 200px;
+	height: 50px;
+	padding: 20px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+#p2 img:hover{background-color: grey;}
+#p2 h2:hover{background-color: grey;}
+
+#p3{
+	clear: both;
+    position: relative;
+    margin: 5px 20px 5px 20px;
+    display: inline-block;
+}
+#p3 h2{
+    position: absolute;
+    bottom: 15px;
+    left:0;
+    right :0;
+    background-color: #4aaaa5;
+   	width: 200px;
+	height: 50px;
+	padding: 20px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+#p3 img:hover{background-color: grey;}
+#p3 h2:hover{background-color: grey;}
+#p4{
+	clear: both;
+    position: relative;
+    margin: 5px 20px 5px 20px;
+    display: inline-block;
+}
+#p4 h2{
+    position: absolute;
+    bottom: 15px;
+    left:0;
+    right :0;
+    background-color: #4aaaa5;
+   	width: 200px;
+	height: 50px;
+	padding: 20px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+#p4 img:hover{background-color: grey;}
+#p4 h2:hover{background-color: grey;}
+#p5{
+	clear: both;
+    position: relative;
+    margin: 5px 20px 5px 20px;
+    display: inline-block;
+}
+#p5 h2{
+	
+    position: absolute;
+    bottom: 15px;
+    left:0;
+    right :0;
+    background-color: #4aaaa5;
+   	width: 200px;
+	height: 50px;
+	padding: 20px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+#p5 img:hover{background-color: grey;}
+#p5 h2:hover{background-color: grey;}
+
+/* for contact.css*/
+#contactme{
+	margin-left: 250px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	float:left;
+	border: 4px solid #dddddd;
+	width: 570px;
+	height: 560px;
+	background-color: #ffffff;
+	padding: 30px;
+}
+#contactme h2{
+	text-align: left;
+	color: #4aaaa5;
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+#contactme hr {
+	border: 2px solid #dddddd;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    font-size: 12px;
+}
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+	background-color: grey;
+}
+#contactform textarea {
+	width: 500px;
+	height: 200px;
+}
+
+
 /*---Media Queries---*/
+
+
+
+/*max screen size 980px--*/ 
 
 @media only screen and (max-width: 980px) {
 	.wrapper{
-		width: 100%;
 		margin: auto;
+		padding: 20px;
 	}
 	#connectme{
-		width: 100%;
+		width: 30%;
+		height: 100%;
 		margin: auto;
+		padding: 20px;
 	}
 	header h1{
-		position: static;
-		margin: auto;
-		min-width: 100%;
+		margin:auto;
 	}
 	header ul{
-		margin: 0;
+		margin:auto;
 	}
-	header li{
-		border-right: none;
-		min-width: 100%;
+	#aboutme{
+		width: 70%;
+		height: 100%;
+		margin:auto;
+		padding: 20px;
+		
+	}
+	#aboutme img{
+	width: 100%;
+	height: auto;
+	}
+	#connectme img{
+	
+	width: 50px;
+	height: 50px;
+
+	}
+	#myportfolio{
+		height: 100%;
 		margin: auto;
 	}
-	body{
-		background-image: none;
+	#contactme{
+		height: 100%;
+		margin: auto;
 	}
 }
+
+/*max screen size 768px--*/ 
+
 @media only screen and (max-width: 768px) {
 	.wrapper{
 		width: 100%;
 		margin: auto;
+		padding: 20px;
 	}
 	#connectme{
 		width: 100%;
+		/*min-width: 768px;*/
 		margin: auto;
+		padding: 20px;
 	}
 	header h1{
-		position: static;
-		min-width: 100%;
 		margin: auto;
 	}
 	header ul{
-		margin: 0;
-	}
-	header li{
-		border-right: none;
-		min-width: 100%;
 		margin: auto;
 	}
-	body{
-		background-image: none;
+	#aboutme{
+		width: 100%;
+		height: 100%;
+		margin: auto;
+		padding: 20px;
+		
 	}
+	#myportfolio{
+		width: auto;
+		height: 100%;
+		margin: auto;
 	}
+	#contactme{
+		width: 100%;
+		height: 100%;
+		margin: auto;
+	}
+}
+
+/*max screen size 640px--*/ 
 
 @media only screen and (max-width: 640px) {
 	.wrapper{
-		width: 100%;
+		width: 90%;
 		margin: auto;
+		padding: 20px;
 	}
 	#connectme{
 		width: 100%;
+
 		margin: auto;
+		padding: 20px;
 	}
 	header h1{
 		position: static;
 		min-width: 100%;
 		margin: auto;
-		
+		clear: both;
 	}
 	header ul{
-		margin: 0;
+	position: static;
+	min-width: 100%;
+	margin:auto;
 	}
 	header li{
-		border-right: none;
+	width: 33.3%;
+	padding-left: 60px;
+	border-right: none;
+		
+	}
+	#aboutme{
+		width: 100%;
+		height: 100%;
+		margin: auto;
+		padding: 20px;
+	}
+	#aboutme img{
+	width: 100%;
+	height: auto;
+	}
+	#myportfolio{
+		width: 100%;
+		height: 100%;
+		margin: auto;
+	}
+	#myportfolio img{
+	width: 100%;
+	height: auto;
+	
+	}
+	#p1 h2{
 		min-width: 100%;
 	}
-	body{
-		background-image: none;
+	#p2 h2{
+		min-width: 100%;
 	}
+	#p3 h2{
+		min-width: 100%;
 	}
+	#p4 h2{
+		min-width: 100%;
+	}
+	#p5 h2{
+		min-width: 100%;
+	}
+	#contactme{
+		width: 100%;
+		height: 100%;
+		margin: auto;
+	}
+	#contactform textarea {
+		width: 100%;
+		border: 1px solid #ccc;
+	}
+
+}
 
